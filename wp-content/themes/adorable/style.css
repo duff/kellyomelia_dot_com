@@ -2421,7 +2421,7 @@ div.gform_wrapper .gform_footer {
 	#header .widget-area,
 	#title-area {
 		float: left;
-		text-align: center;
+		/* text-align: center; */
 		width: 100%;
 	}
 
