@@ -272,6 +272,10 @@ body {
 .header-full-width #title a {
 	width: 1100px;
 }
+#title .orange {
+  color: #FA8A00;
+}
+
 
 
 /* Header / Primary / Secondary Navigation
