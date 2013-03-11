@@ -2356,7 +2356,7 @@ div.gform_wrapper .gform_footer {
 	#footer .gototop,
 	#title,
 	#title-area {
-		float: none;
+		/* float: none; */
 		/* text-align: center; */
 	}
 
