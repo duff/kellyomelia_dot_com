@@ -101,7 +101,7 @@ function genesis_seo_site_title() {
 	/** Set what goes inside the wrapping tags */
     $blog_name = "Kell O'Melia"
 	/* $inside = sprintf( '<a href="%s" title="%s">%s</a>', trailingslashit( home_url() ), esc_attr( get_bloginfo( 'name' ) ), get_bloginfo( 'name' ) ); */
-	$inside = sprintf( '<a href="%s" title="%s">%s</a>', trailingslashit( home_url() ), $blog_name, get_bloginfo( 'name' ) );
+	$inside = sprintf( '<a href="%s" title="%s">%s</a>', trailingslashit( home_url() ), esc_attr( get_bloginfo( 'name' ) ), $blog_name );
 
 	/** Determine which wrapping tags to use */
 	$wrap = is_home() && 'title' == genesis_get_seo_option( 'home_h1_on' ) ? 'h1' : 'p';
