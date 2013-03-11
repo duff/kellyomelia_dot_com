@@ -2356,7 +2356,7 @@ div.gform_wrapper .gform_footer {
 	#footer .gototop,
 	#title,
 	#title-area {
-		/* float: none; */
+		float: none;
 		/* text-align: center; */
 	}
 
@@ -2420,7 +2420,7 @@ div.gform_wrapper .gform_footer {
 	#header .menu,
 	#header .widget-area,
 	#title-area {
-		/* float: left; */
+		float: left;
 		/* text-align: center; */
 		width: 100%;
 	}
