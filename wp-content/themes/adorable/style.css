@@ -2691,6 +2691,9 @@ div.gform_wrapper .gform_footer {
 }
 
 @media only screen and (max-width: 480px) {
+	#title {
+		font-size: 44px;
+	}
 
 	.sidebar .featuredpage .page,
 	.sidebar .featuredpost .post {
