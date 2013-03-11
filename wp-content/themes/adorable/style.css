@@ -2357,7 +2357,7 @@ div.gform_wrapper .gform_footer {
 	#title,
 	#title-area {
 		float: none;
-		text-align: center;
+		/* text-align: center; */
 	}
 
 	
