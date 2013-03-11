@@ -99,7 +99,7 @@ add_action( 'genesis_site_title', 'genesis_seo_site_title' );
 function genesis_seo_site_title() {
 
 	/** Set what goes inside the wrapping tags */
-    $blog_name = '<span class="orange">K</span><span class="pink">e</span><span class="green">l</span><span class="blue">l</span>y <span class="orange">O</span><span class="pink">\'</span>Melia';
+    $blog_name = '<span class="orange">K</span><span class="pink">e</span><span class="green">l</span><span class="blue">l</span><span class="blue">y</span> <span class="orange">O</span><span class="pink">\'</span><span class="green">M</span><span class="blue">e</span><span class="red">l</span><span class="orange">i</span><span class="pink">a</span>';
 	/* $inside = sprintf( '<a href="%s" title="%s">%s</a>', trailingslashit( home_url() ), esc_attr( get_bloginfo( 'name' ) ), get_bloginfo( 'name' ) ); */
     $inside = "<a href=\"http://kellyomelia.com/\">$blog_name</a>";
 	/* $inside = sprintf( '<a href="%s" title="%s">%s</a>', trailingslashit( home_url() ), $blog_name, get_bloginfo( 'name' ) ); */
