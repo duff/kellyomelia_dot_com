@@ -199,7 +199,7 @@ function genesis_default_title( $title, $sep, $seplocation ) {
 		$title = genesis_get_seo_option( 'home_doctitle' ) ? genesis_get_seo_option( 'home_doctitle' ) : get_bloginfo( 'name' );
 
 		/** Append site description, if necessary */
-		$title = genesis_get_seo_option( 'append_description_home' ) ? $title . " $sep " . get_bloginfo( 'description' ) : $title;
+		/* $title = genesis_get_seo_option( 'append_description_home' ) ? $title . " $sep " . get_bloginfo( 'description' ) : $title; */
 	}
 
 	/**	if viewing a post / page / attachment */
