@@ -36,7 +36,6 @@ add_image_size( 'Blog Excerpt', 250, 175, TRUE );
 add_image_size( 'Home Thumb', 300, 150, TRUE );
 add_image_size( 'Home Top', 660, 200, TRUE );
 add_image_size( 'Sidebar', 290, 175, TRUE );
-add_image_size( 'KellMedium', 300, 300, TRUE );
 
 // Changing excerpt more
 add_filter( 'excerpt_more', 'new_excerpt_more' );
